@@ -16,6 +16,15 @@ const USER_CONFIG = {
   PROVINCE: '河南',
   CITY: '郑州',
 
+  SWITCH: {
+      /** 每日天气 */
+  weather: true,
+    
+  // 土味情话(彩虹屁), 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+  earthyLoveWords: true,
+      // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    birthdayMessage: true,
+  },
   USERS: [
     {
       // 想要发送的人的名字
